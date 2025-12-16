@@ -38,3 +38,7 @@ dataset/
 # -------------------------------------
 .DS_Store
 Thumbs.db
+
+
+#upyter test file
+heart_disease_prediction.ipynb
