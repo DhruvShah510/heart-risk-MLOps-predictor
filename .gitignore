@@ -1,0 +1,40 @@
+# -------------------------------------
+# ENVIRONMENT (Venvs and local files)
+# -------------------------------------
+# Ignore the virtual environment folder (heart_disease)
+
+heart_disease/
+
+# Standard virtual environment folder names
+venv/
+.venv/
+env/
+.env
+
+# -------------------------------------
+# PYTHON COMPILED & TEMP FILES
+# -------------------------------------
+# Byte-compiled Python files
+pycache/
+*.pyc
+
+# IDE/Jupyter files
+.ipynb_checkpoints/
+.vscode/
+
+# -------------------------------------
+# DATA & MODEL ARTIFACTS
+# -------------------------------------
+dataset/
+*.csv
+*.xlsx
+
+# Ignore local configuration files if any
+*.ini
+*.log
+
+# -------------------------------------
+# OS SPECIFIC FILES
+# -------------------------------------
+.DS_Store
+Thumbs.db
