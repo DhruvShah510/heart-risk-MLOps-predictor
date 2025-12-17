@@ -1,5 +1,5 @@
-# heart-risk-MLOps-predictor
-Full-stack Machine Learning project for predicting heart disease risk. Implements a trained Random Forest model using FastAPI as a robust REST API service and Streamlit for the interactive user interface. The entire application is containerized with Docker for guaranteed, reproducible execution across any environment.
+## Heart Disease Risk Prediction System (MLOps)
+A full-stack **MLOps project** that predicts the risk of heart disease based on clinical patient data. This system is designed for **medical professionals**, offering not just a prediction but also a **confidence score** to aid in clinical interpretation.
 
 🚀 Live Demo
 Live project link : https://heart-risk-predictor-29lb.onrender.com
@@ -14,7 +14,7 @@ The above is the live project link (The project is deployed on render)
 Predicting heart disease risk is a complex task requiring the analysis of multiple physiological factors.  
 This project implements a **Random Forest Classifier pipeline** to analyze **13 clinical features** and provide real-time predictions.
 
-### ✨ Key Features
+## ✨ Key Features
 
 - **Clinical Interpretability**  
   Designed for healthcare scenarios, requiring detailed medical inputs such as cholesterol, thalach, oldpeak, etc.
@@ -53,7 +53,7 @@ This project implements a **Random Forest Classifier pipeline** to analyze **13 
 ├── Dockerfile             # Container configuration
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
-
+```
 
 ---
 
@@ -75,8 +75,22 @@ This project implements a **Random Forest Classifier pipeline** to analyze **13 
 
 ## 🐳 Local Setup & Docker
 
-### Pull the Image from Docker Hub
+1. Pull the Image from Docker Hub
 
 ```bash
 docker pull dhruvshah15/heart-risk-predictor:latest
+```
 
+2. Run the Container:
+```bash
+docker run -p 8501:8501 dhruvshah15/heart-risk-predictor:latest
+```
+
+3. Access the App: Open your browser and go to
+```bash
+http://localhost:8501.
+```
+
+## 🤝 Contact
+Dhruv Shah
+Linked in : https://www.linkedin.com/in/dhruv-shah-25997624b
