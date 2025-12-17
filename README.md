@@ -36,7 +36,6 @@ This project implements a **Random Forest Classifier pipeline** to analyze **13 
 - **Backend API:** FastAPI, Uvicorn  
 - **Frontend UI:** Streamlit  
 - **DevOps / Deployment:** Docker, Docker Hub, Render  
-- **Environment & Scripting:** Shell Scripting (Linux / Bash)
 
 
 
