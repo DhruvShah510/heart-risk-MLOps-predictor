@@ -28,7 +28,7 @@ This project implements a **Random Forest Classifier pipeline** to analyze **13 
 - **Containerized Architecture**  
   Fully dockerized for **plug-and-play deployment**.
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -38,7 +38,7 @@ This project implements a **Random Forest Classifier pipeline** to analyze **13 
 - **DevOps / Deployment:** Docker, Docker Hub, Render  
 - **Environment & Scripting:** Shell Scripting (Linux / Bash)
 
----
+
 
 ## 📂 Project Structure
 
@@ -55,7 +55,7 @@ This project implements a **Random Forest Classifier pipeline** to analyze **13 
 └── README.md              # Project documentation
 ```
 
----
+
 
 ## ⚙️ How It Works (Architecture)
 
@@ -71,7 +71,7 @@ This project implements a **Random Forest Classifier pipeline** to analyze **13 
 4. **Service Orchestration**  
    A `start.sh` script runs both FastAPI and Streamlit concurrently within a **single Docker container**, optimized for cloud platforms like **Render**.
 
----
+
 
 ## 🐳 Local Setup & Docker
 
